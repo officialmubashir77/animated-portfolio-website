@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Montserrat Google Font Link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Remix Icons CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Modern Animated Portfolio Website</title>
+    <link rel="icon" type="image/x-icon" href="./assets/images/playButton.png">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div id="moving-circle"></div>
+
+    <div id="loader">
+        <div id="wrapperload">
+            <div class="elem">
+                <img src="./assets/images/name.png" alt="">
+            </div>
+            <div class="elem">
+                <h3>UI/UX Desinger</h3>
+            </div>
+            <div class="elem">
+                <h3>loves to help brands.</h3>
+            </div>
+            <div class="elem">
+                <img src="./assets/images/name.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div id="bg">
+        <nav>
+            <img class="navitems" src="./assets/images/logo.png" alt="">
+
+            <div id="links">
+                <a class="navitems" href="#">Home</a>
+                <a class="navitems" href="#">Contacts</a>
+                <i class="ri-search-line navitems"></i>
+                <i id="menu-icon" class="ri-menu-2-line navitems    "></i>
+            </div>
+        </nav>
+
+        <div id="sections">
+            <img class="left-item" id="splash" src="./assets/images/rightSplash.png" alt="">
+
+            <div id="left">
+                <div id="content-div">
+                    <div id="sm-line"></div>
+                    <h4 class="left-item">Hello, I am 👋</h4>
+                    <img class="left-item" src="./assets/images/name.png" alt="">
+                    <h5 class="left-item">a desinger from <span>ukraine.</span></h5>
+
+                    <div class="left-item" id="playbtn">
+                        <img src="./assets/images/playButton.png" alt="">
+
+                        <h5><a target="_blank" href="https://github.com/officialmubashir77">see my <span class="bold"> work profile </a></span></h5>
+                    </div>
+                </div>
+
+                <div class="left-item" id="contact">
+                    <h3>Contact me</h3>
+
+                    <h6>Email : <span><a href="mailto:officialmubashir77@gmail.com">officialmubashir77@gmail.com</a></span></h6>
+                    <h6>Contact Number : <a target="_blank" href="https://api.whatsapp.com/send?phone=923222571721"><span>+92-3222571721</span></a></h6>
+                </div>
+
+            </div>
+
+            <div id="right">
+                <img src="./assets/images/mainImage.png" alt="">
+            </div>
+
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
